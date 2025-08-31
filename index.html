@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anaika Maheshwari | Portfolio</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 30px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 15px;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      color: #cccccc;
+      margin-bottom: 20px;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    /* Photo Style */
+    .profile-pic {
+      width: 220px;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 15px; /* Square with rounded corners */
+      box-shadow: 0 0 15px rgba(255, 76, 41, 0.7);
+      margin-bottom: 25px;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    /* Buttons */
+    .buttons {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      animation: fadeIn 2.5s ease-in-out;
+    }
+
+    .buttons a {
+      text-decoration: none;
+      padding: 12px 25px;
+      font-size: 1rem;
+      border-radius: 8px;
+      background: #ff4c29;
+      color: white;
+      transition: 0.3s;
+      box-shadow: 0 0 10px rgba(255, 76, 41, 0.6);
+    }
+
+    .buttons a:hover {
+      background: #ff693f;
+      transform: translateY(-3px);
+      box-shadow: 0 0 20px rgba(255, 76, 41, 0.8);
+    }
+
+    /* Animation */
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <!-- Profile Photo -->
+  <img src="anaika.jpg" alt="Anaika Maheshwari" class="profile-pic">
+
+  <h1>Hi, I'm <span style="color:#ff4c29;">Anaika Maheshwari</span></h1>
+  <h2>Aspiring Web & Frontend Developer</h2>
+
+  <div class="buttons">
+    <a href="about.html">About Me</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <footer>
+    © 2025 Anaika Maheshwari | Portfolio
+  </footer>
+</body>
+</html>
+
+
